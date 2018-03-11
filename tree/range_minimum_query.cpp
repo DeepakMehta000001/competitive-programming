@@ -32,7 +32,6 @@ int query(int ql,int qh,int l,int h, int p){
 
 
 int main(){
-    //memset(segTree,0,sizeof(segTree));
     fill(segTree,segTree+NAX,INT_MAX);
     for(int i=0;i<n;++i){
         cout<<arr[i]<<" ";
