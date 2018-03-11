@@ -1,5 +1,5 @@
 //Problem - https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/
-//Nature - BIT
+//Nature - BST
 //Level - Medium, Tricky.
 
 #include<bits/stdc++.h>
