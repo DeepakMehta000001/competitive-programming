@@ -40,6 +40,17 @@ using namespace std;
 }
 
 
+vector<int> countSmaller(vector<int> &nums) {
+    int n=nums.size();
+    vector<int> cnt(n);
+    map<long long,pair<int,int> > bst;
+    map<long long,int> idx;
+    for(int i=n-1;i>=0;--i){
+        cnt[i]=BST(idx,bst,nums[i]);
+    }
+    return cnt;
+ }
+
 int main(){
     int n;
     cin>>n;
